@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 06 Aug 2023 00:39:24 GMT
+ * Generated on Sun, 06 Aug 2023 00:43:30 GMT
  */
 
 module.exports = {
@@ -129,6 +129,47 @@ module.exports = {
           "desintokens",
           "spacing",
           "xl"
+        ]
+      },
+      "l": {
+        "type": "dimension",
+        "value": 24,
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "collection": "DesinTokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:85:21",
+            "exportKey": "variables"
+          }
+        },
+        "filePath": "tokens/design-tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "dimension",
+          "value": 24,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:85:21",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "name": "DesintokensSpacingL",
+        "attributes": {
+          "category": "desintokens",
+          "type": "spacing",
+          "item": "l"
+        },
+        "path": [
+          "desintokens",
+          "spacing",
+          "l"
         ]
       }
     },
