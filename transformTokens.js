@@ -47,7 +47,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
   source: ["tokens/*.json"],
   platforms: {
     ts: {
-      buildPath: "src/tokens/",
+      buildPath: "build/js/",
       transformGroup: "js",
       files: [
         {
