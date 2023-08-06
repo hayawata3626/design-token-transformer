@@ -4,12 +4,20 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 08 May 2023 07:37:37 GMT
+// Generated on Sun, 06 Aug 2023 00:05:32 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+DesintokensPrimay,
+DesintokensSea900,
+DesintokensPrimitivecolorSeaSea900,
+DesintokensPrimitivecolorSeaSea800,
+DesintokensPrimitivecolorWhiteWhite1000,
+DesintokensSea800,
+DesintokensSemanticcolorPrimary,
+DesintokensSemanticcolorTextTextreverse,
 ColorColorsSemiRed,
 ColorColorsMultipleFills0,
 ColorColorsMultipleFills1,
