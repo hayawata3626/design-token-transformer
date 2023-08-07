@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: build
-        run: npm run build
+        run: npm run transform-tokens
 
       - name: publish
         run: npm publish
