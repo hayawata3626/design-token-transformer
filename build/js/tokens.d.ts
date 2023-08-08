@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 06 Aug 2023 00:39:24 GMT
+ * Generated on Sun, 06 Aug 2023 00:43:30 GMT
  */
 
 export default tokens;
@@ -26,7 +26,8 @@ declare const tokens: {
     "primay": DesignToken,
     "spacing": {
       "xxl": DesignToken,
-      "xl": DesignToken
+      "xl": DesignToken,
+      "l": DesignToken
     },
     "sea900": DesignToken,
     "primitivecolor": {
