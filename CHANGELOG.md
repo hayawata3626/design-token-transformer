@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.1.0...v1.2.0) (2023-08-08)
+
+
+### Features
+
+* spacingのXLの値を変更 ([#16](https://github.com/hayawata3626/design-token-transformer/issues/16)) ([ea564a7](https://github.com/hayawata3626/design-token-transformer/commit/ea564a79ef8dcd117e0009e936d4f302df16240f))
+
 ## [1.1.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.0.0...v1.1.0) (2023-08-08)
 
 
