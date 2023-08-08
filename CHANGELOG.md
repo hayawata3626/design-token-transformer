@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.0.0...v1.1.0) (2023-08-08)
+
+
+### Features
+
+* spacingのLの値を変更 ([#13](https://github.com/hayawata3626/design-token-transformer/issues/13)) ([a1f674e](https://github.com/hayawata3626/design-token-transformer/commit/a1f674ec021a76c1928b3bda8e7a75d17a8cc8f6))
+
 ## 1.0.0 (2023-08-08)
 
 
