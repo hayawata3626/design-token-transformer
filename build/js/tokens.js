@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 08 Aug 2023 07:54:48 GMT
+ * Generated on Tue, 08 Aug 2023 08:11:50 GMT
  */
 
 module.exports = {
@@ -91,7 +91,7 @@ module.exports = {
       "xl": {
         "description": "test",
         "type": "dimension",
-        "value": 40,
+        "value": 44,
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "collection": "DesinTokens",
@@ -107,7 +107,7 @@ module.exports = {
         "original": {
           "description": "test",
           "type": "dimension",
-          "value": 40,
+          "value": 44,
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "collection": "DesinTokens",
