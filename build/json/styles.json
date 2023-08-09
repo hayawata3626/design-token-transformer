@@ -1,13 +1,12 @@
 {
-  "DesintokensPrimay": "#ffffffff",
-  "DesintokensSpacingXxl": 64,
-  "DesintokensSpacingXl": 44,
-  "DesintokensSpacingL": 20,
-  "DesintokensSea900": "#ffffffff",
-  "DesintokensPrimitivecolorSeaSea900": "#000082ff",
-  "DesintokensPrimitivecolorSeaSea800": "#0017c1ff",
-  "DesintokensPrimitivecolorWhiteWhite1000": "#ffffffff",
-  "DesintokensSea800": "#0017c1ff",
-  "DesintokensSemanticcolorPrimary": "#000082ff",
-  "DesintokensSemanticcolorTextTextreverse": "#ffffffff"
+  "EffectTest": {"shadowType":"dropShadow","radius":4,"color":"#00000040","offsetX":0,"offsetY":4,"spread":0},
+  "DesigntokensPrimitivecolorWhiteWhite1000": "#ffffffff",
+  "DesigntokensPrimitivecolorSeaSea900": "#000082ff",
+  "DesigntokensPrimitivecolorSeaSea800": "#0017c1ff",
+  "DesigntokensSemanticcolorReverse": "#ffffffff",
+  "DesigntokensSemanticcolorPrimary": "#000082ff",
+  "DesigntokensSemanticcolorTextTextreverse": "#ffffffff",
+  "DesigntokensSpacingXxl": 64,
+  "DesigntokensSpacingXl": 40,
+  "DesigntokensSpacingL": 32
 }
