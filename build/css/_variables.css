@@ -1,4 +1,9 @@
 :root {
+  --font-title-l: 400 32/44.8 Noto Sans JP;
+  --font-title-m: 400 28/42 Noto Sans JP;
+  --effect-elevation01: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  --effect-elevation02: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  --effect-elevation03: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
   --desintokens-primay: rgb(255, 255, 255);
   --desintokens-spacing-xxl: 64px;
   --desintokens-spacing-xl: 44px;
@@ -10,4 +15,26 @@
   --desintokens-sea800: rgb(0, 23, 193);
   --desintokens-semanticcolor-primary: rgb(0, 0, 130);
   --desintokens-semanticcolor-text-textreverse: rgb(255, 255, 255);
+  --typography-title-l-font-size: 32px;
+  --typography-title-l-text-decoration: none;
+  --typography-title-l-font-family: Noto Sans JP;
+  --typography-title-l-font-weight: 400;
+  --typography-title-l-font-style: normal;
+  --typography-title-l-font-stretch: normal;
+  --typography-title-l-letter-spacing: 1.28px;
+  --typography-title-l-line-height: 44.8px;
+  --typography-title-l-paragraph-indent: 0;
+  --typography-title-l-paragraph-spacing: 0;
+  --typography-title-l-text-case: none;
+  --typography-title-m-font-size: 28px;
+  --typography-title-m-text-decoration: none;
+  --typography-title-m-font-family: Noto Sans JP;
+  --typography-title-m-font-weight: 400;
+  --typography-title-m-font-style: normal;
+  --typography-title-m-font-stretch: normal;
+  --typography-title-m-letter-spacing: 1.12px;
+  --typography-title-m-line-height: 42px;
+  --typography-title-m-paragraph-indent: 0;
+  --typography-title-m-paragraph-spacing: 0;
+  --typography-title-m-text-case: none;
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 08 Aug 2023 08:11:50 GMT
+ * Generated on Wed, 09 Aug 2023 07:09:12 GMT
  */
 
 export default tokens;
@@ -22,6 +22,17 @@ declare interface DesignToken {
 }
 
 declare const tokens: {
+  "font": {
+    "title": {
+      "l": DesignToken,
+      "m": DesignToken
+    }
+  },
+  "effect": {
+    "elevation01": DesignToken,
+    "elevation02": DesignToken,
+    "elevation03": DesignToken
+  },
   "desintokens": {
     "primay": DesignToken,
     "spacing": {
@@ -44,6 +55,36 @@ declare const tokens: {
       "primary": DesignToken,
       "text": {
         "textreverse": DesignToken
+      }
+    }
+  },
+  "typography": {
+    "title": {
+      "l": {
+        "fontSize": DesignToken,
+        "textDecoration": DesignToken,
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontStyle": DesignToken,
+        "fontStretch": DesignToken,
+        "letterSpacing": DesignToken,
+        "lineHeight": DesignToken,
+        "paragraphIndent": DesignToken,
+        "paragraphSpacing": DesignToken,
+        "textCase": DesignToken
+      },
+      "m": {
+        "fontSize": DesignToken,
+        "textDecoration": DesignToken,
+        "fontFamily": DesignToken,
+        "fontWeight": DesignToken,
+        "fontStyle": DesignToken,
+        "fontStretch": DesignToken,
+        "letterSpacing": DesignToken,
+        "lineHeight": DesignToken,
+        "paragraphIndent": DesignToken,
+        "paragraphSpacing": DesignToken,
+        "textCase": DesignToken
       }
     }
   }
