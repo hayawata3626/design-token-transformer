@@ -1,13 +1,11 @@
 :root {
-  --desintokens-primay: rgb(255, 255, 255);
-  --desintokens-spacing-xxl: 64px;
-  --desintokens-spacing-xl: 44px;
-  --desintokens-spacing-l: 20px;
-  --desintokens-sea900: rgb(255, 255, 255);
-  --desintokens-primitivecolor-sea-sea900: rgb(0, 0, 130);
-  --desintokens-primitivecolor-sea-sea800: rgb(0, 23, 193);
-  --desintokens-primitivecolor-white-white1000: rgb(255, 255, 255);
-  --desintokens-sea800: rgb(0, 23, 193);
-  --desintokens-semanticcolor-primary: rgb(0, 0, 130);
-  --desintokens-semanticcolor-text-textreverse: rgb(255, 255, 255);
+  --designtokens-primitivecolor-white-white1000: rgb(255, 255, 255);
+  --designtokens-primitivecolor-sea-sea900: rgb(0, 0, 130);
+  --designtokens-primitivecolor-sea-sea800: rgb(0, 23, 193);
+  --designtokens-semanticcolor-reverse: rgb(255, 255, 255);
+  --designtokens-semanticcolor-primary: rgb(0, 0, 130);
+  --designtokens-semanticcolor-text-textreverse: rgb(255, 255, 255);
+  --designtokens-spacing-xxl: 64px;
+  --designtokens-spacing-xl: 40px;
+  --designtokens-spacing-l: 32px;
 }
