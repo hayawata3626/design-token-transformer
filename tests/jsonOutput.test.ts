@@ -1,11 +1,13 @@
-const fs = require('fs')
-const jsonExpectedOutput = require('./data/jsonStyleDictionary.data')
+const fs = require('fs');
+const jsonExpectedOutput = require('./data/jsonStyleDictionary.data');
 
 describe('Verify json output for style dictionary', () => {
   // read files
-  const json = JSON.parse(fs.readFileSync('./tokens/design-tokens.tokens.json', 'utf8'))
+  const json = JSON.parse(
+    fs.readFileSync('./tokens/design-tokens.json', 'utf8')
+  );
   // compare to data
   test('Compare data', () => {
-    expect(json).toStrictEqual(jsonExpectedOutput)
-  })
-})
+    expect(json).toStrictEqual(jsonExpectedOutput);
+  });
+});
