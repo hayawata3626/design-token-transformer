@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.2.0...v1.3.0) (2023-12-02)
+
+
+### Features
+
+* change design-token convert function ([692f3a6](https://github.com/hayawata3626/design-token-transformer/commit/692f3a67a84dc857297e0b7799ed455f4bcc64cd))
+
+
+### Bug Fixes
+
+* test ([2edac0f](https://github.com/hayawata3626/design-token-transformer/commit/2edac0f1dd7a446d2a9309e96ff0a261a6c7b682))
+
 ## [1.2.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.1.0...v1.2.0) (2023-08-08)
 
 
