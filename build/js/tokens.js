@@ -1,13 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Tue, 08 Aug 2023 08:11:50 GMT
+ * Generated on Sat, 02 Dec 2023 08:02:23 GMT
  */
 
 module.exports = {
   "desintokens": {
     "primay": {
       "type": "color",
-      "value": "#ffffffff",
+      "value": "#ffffff",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -89,7 +89,7 @@ module.exports = {
         ]
       },
       "xl": {
-        "description": "test",
+        "comment": "test",
         "type": "dimension",
         "value": 44,
         "extensions": {
@@ -105,7 +105,7 @@ module.exports = {
         "filePath": "tokens/design-tokens.json",
         "isSource": true,
         "original": {
-          "description": "test",
+          "comment": "test",
           "type": "dimension",
           "value": 44,
           "extensions": {
@@ -175,7 +175,7 @@ module.exports = {
     },
     "sea900": {
       "type": "color",
-      "value": "#ffffffff",
+      "value": "#ffffff",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -218,7 +218,7 @@ module.exports = {
       "sea": {
         "sea900": {
           "type": "color",
-          "value": "#000082ff",
+          "value": "#000082",
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
@@ -263,7 +263,7 @@ module.exports = {
         },
         "sea800": {
           "type": "color",
-          "value": "#0017c1ff",
+          "value": "#0017c1",
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
@@ -310,7 +310,7 @@ module.exports = {
       "white": {
         "white1000": {
           "type": "color",
-          "value": "#ffffffff",
+          "value": "#ffffff",
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
@@ -357,7 +357,7 @@ module.exports = {
     },
     "sea800": {
       "type": "color",
-      "value": "#0017c1ff",
+      "value": "#0017c1",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -399,7 +399,7 @@ module.exports = {
     "semanticcolor": {
       "primary": {
         "type": "color",
-        "value": "#000082ff",
+        "value": "#000082",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "collection": "DesinTokens",
@@ -441,7 +441,7 @@ module.exports = {
       "text": {
         "textreverse": {
           "type": "color",
-          "value": "#ffffffff",
+          "value": "#ffffff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
               "collection": "DesinTokens",

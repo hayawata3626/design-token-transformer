@@ -1,13 +1,13 @@
 {
-  "DesintokensPrimay": "#ffffffff",
+  "DesintokensPrimay": "#ffffff",
   "DesintokensSpacingXxl": 64,
   "DesintokensSpacingXl": 44,
   "DesintokensSpacingL": 20,
-  "DesintokensSea900": "#ffffffff",
-  "DesintokensPrimitivecolorSeaSea900": "#000082ff",
-  "DesintokensPrimitivecolorSeaSea800": "#0017c1ff",
-  "DesintokensPrimitivecolorWhiteWhite1000": "#ffffffff",
-  "DesintokensSea800": "#0017c1ff",
-  "DesintokensSemanticcolorPrimary": "#000082ff",
-  "DesintokensSemanticcolorTextTextreverse": "#ffffffff"
+  "DesintokensSea900": "#ffffff",
+  "DesintokensPrimitivecolorSeaSea900": "#000082",
+  "DesintokensPrimitivecolorSeaSea800": "#0017c1",
+  "DesintokensPrimitivecolorWhiteWhite1000": "#ffffff",
+  "DesintokensSea800": "#0017c1",
+  "DesintokensSemanticcolorPrimary": "#000082",
+  "DesintokensSemanticcolorTextTextreverse": "#ffffff"
 }

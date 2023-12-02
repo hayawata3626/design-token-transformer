@@ -1,7 +1,36 @@
-const StyleDictionary = require('style-dictionary');
+const StyleDictionary = require('style-dictionary-utils');
 const deepMerge = require('deepmerge');
 const webConfig = require('./src/web/index.js');
 const androidConfig = require('./src/android/index.js');
+const JsonToTS = require('json-to-ts');
+
+StyleDictionary.registerFormat({
+  name: 'typescript/module-declarations',
+  formatter: function ({ dictionary }) {
+    return (
+      'declare const root: RootObject\n' +
+      'export default root\n' +
+      JsonToTS(dictionary.properties).join('\n')
+    );
+  },
+});
+
+StyleDictionary.registerFormat({
+  name: 'tsFormat',
+  formatter: function ({ dictionary, file }) {
+    // 現在fontから同じ情報を取得できるので削除している(参考: https://github.com/lukasoppermann/design-tokens/issues/266)
+    delete dictionary.tokens.typography;
+    const tokens = StyleDictionary.formatHelpers.minifyDictionary(
+      dictionary.tokens
+    );
+    return (
+      StyleDictionary.formatHelpers.fileHeader({ file }) +
+      'export const theme = ' +
+      JSON.stringify(tokens, null, 2) +
+      ' as const;'
+    );
+  },
+});
 
 StyleDictionary.registerTransform({
   name: 'size/px',
@@ -28,6 +57,45 @@ StyleDictionary.registerTransform({
   },
 });
 
+StyleDictionary.registerTransform({
+  type: webConfig.transform['web/shadow'].type,
+  name: 'web/shadow',
+  matcher: webConfig.transform['web/shadow'].matcher,
+  transformer: webConfig.transform['web/shadow'].transformer,
+});
+
+StyleDictionary.registerTransform({
+  name: 'custom-fontStyle/number-to-px',
+  type: 'value',
+  matcher: (token) => token.type === 'custom-fontStyle',
+  transformer: (token) => {
+    return {
+      ...token.value,
+      fontSize: `${token.value.fontSize}px`,
+      letterSpacing: `${token.value.letterSpacing}px`,
+      lineHeight: `${token.value.lineHeight}px`,
+    };
+  },
+});
+
+StyleDictionary.registerTransform({
+  type: webConfig.transform['web/font'].type,
+  name: 'web/font',
+  matcher: webConfig.transform['web/font'].matcher,
+  transformer: webConfig.transform['web/font'].transformer,
+});
+
+StyleDictionary.registerTransformGroup({
+  name: 'tsFormat',
+  transforms: [
+    'size/px',
+    'font/css',
+    'custom-fontStyle/number-to-px',
+    'web/shadow',
+    'web/font',
+  ],
+});
+
 StyleDictionary.registerFilter({
   name: 'validToken',
   matcher: function (token) {
@@ -49,7 +117,7 @@ const StyleDictionaryExtended = StyleDictionary.extend({
   ...deepMerge.all([androidConfig, webConfig]),
   source: ['tokens/*.json'],
   platforms: {
-    ts: {
+    js: {
       buildPath: 'build/js/',
       transformGroup: 'js',
       files: [
@@ -63,13 +131,23 @@ const StyleDictionaryExtended = StyleDictionary.extend({
         },
       ],
     },
+    ts: {
+      transformGroup: 'tsFormat',
+      buildPath: 'build/ts/',
+      files: [
+        {
+          format: 'tsFormat',
+          destination: 'theme.ts',
+        },
+      ],
+    },
     scss: {
       transformGroup: 'custom/css',
       buildPath: 'build/scss/',
       files: [
         {
           destination: '_variables.scss',
-          format: 'scss/variables',
+          format: 'css/variables',
           filter: 'validToken',
         },
       ],
