@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 02 Dec 2023 08:02:23 GMT
+// Generated on Sat, 02 Dec 2023 08:17:43 GMT
 
 
 import UIKit
@@ -17,5 +17,7 @@ public enum StyleDictionaryColor {
     public static let sea800 = #0017c1ff
     public static let sea900 = #ffffffff
     public static let semanticcolorPrimary = #000082ff
+    public static let semanticcolorTextComment = #ffffffff
     public static let semanticcolorTextTextreverse = #ffffffff
+    public static let test = #ffffffff
 }
