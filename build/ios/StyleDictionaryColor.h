@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 02 Dec 2023 08:02:23 GMT
+// Generated on Sat, 02 Dec 2023 08:17:43 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -17,7 +17,9 @@ DesintokensPrimitivecolorSeaSea800,
 DesintokensPrimitivecolorWhiteWhite1000,
 DesintokensSea800,
 DesintokensSemanticcolorPrimary,
-DesintokensSemanticcolorTextTextreverse
+DesintokensSemanticcolorTextTextreverse,
+DesintokensSemanticcolorTextComment,
+DesintokensTest
 };
 
 @interface StyleDictionaryColor : NSObject
