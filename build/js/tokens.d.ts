@@ -61,15 +61,25 @@ interface Desintokens {
   primitivecolor: Primitivecolor;
   sea800: Primay;
   semanticcolor: Semanticcolor;
-  test: Primay;
 }
 interface Semanticcolor {
   primary: Primary;
   text: Text;
+  border: Border;
+  background: Background;
+}
+interface Background {
+  primary: Textreverse;
+}
+interface Border {
+  dark: Textreverse;
+  secondary: Textreverse;
 }
 interface Text {
   textreverse: Textreverse;
   comment: Textreverse;
+  placeholder: Textreverse;
+  sub: Textreverse;
 }
 interface Textreverse {
   type: string;
@@ -101,6 +111,21 @@ interface Original6 {
 interface Primitivecolor {
   sea: Sea;
   white: White;
+  black: Black;
+  gray: Black;
+  subgray: Black;
+}
+interface Black {
+  type: string;
+  value: string;
+  blendMode: string;
+  extensions: Extensions2;
+  filePath: string;
+  isSource: boolean;
+  original: Original3;
+  name: string;
+  attributes: Attributes;
+  path: string[];
 }
 interface White {
   white1000: Sea900;
@@ -188,6 +213,7 @@ interface Extensions2 {
   'org.lukasoppermann.figmaDesignTokens': OrglukasoppermannfigmaDesignTokens2;
 }
 interface OrglukasoppermannfigmaDesignTokens2 {
+  mode: string;
   collection: string;
   scopes: string[];
   variableId: string;
