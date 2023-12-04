@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 02 Dec 2023 08:17:43 GMT
+ * Generated on Mon, 04 Dec 2023 09:41:57 GMT
  */
 
 export const theme = {
@@ -30,16 +30,27 @@ export const theme = {
       },
       "white": {
         "white1000": "#ffffffff"
-      }
+      },
+      "black": "#111010ff",
+      "gray": "#808080ff",
+      "subgray": "#626264ff"
     },
     "sea800": "#0017c1ff",
     "semanticcolor": {
       "primary": "#000082ff",
       "text": {
         "textreverse": "#ffffffff",
-        "comment": "#ffffffff"
+        "comment": "#ffffffff",
+        "placeholder": "#808080ff",
+        "sub": "#626264ff"
+      },
+      "border": {
+        "dark": "#111010ff",
+        "secondary": "#808080ff"
+      },
+      "background": {
+        "primary": "#ffffffff"
       }
-    },
-    "test": "#ffffffff"
+    }
   }
 } as const;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 02 Dec 2023 08:17:43 GMT
+ * Generated on Mon, 04 Dec 2023 09:41:57 GMT
  */
 
 module.exports = {
@@ -272,6 +272,7 @@ module.exports = {
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
+          "mode": "Mode 1",
           "collection": "DesinTokens",
           "scopes": [
             "ALL_SCOPES"
@@ -288,6 +289,7 @@ module.exports = {
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -313,6 +315,7 @@ module.exports = {
         "value": 64,
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -328,6 +331,7 @@ module.exports = {
           "value": 64,
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -355,6 +359,7 @@ module.exports = {
         "value": 44,
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -371,6 +376,7 @@ module.exports = {
           "value": 44,
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -397,6 +403,7 @@ module.exports = {
         "value": 24,
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -412,6 +419,7 @@ module.exports = {
           "value": 24,
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -440,6 +448,7 @@ module.exports = {
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
+          "mode": "Mode 1",
           "collection": "DesinTokens",
           "scopes": [
             "ALL_SCOPES"
@@ -456,6 +465,7 @@ module.exports = {
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -483,6 +493,7 @@ module.exports = {
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -499,6 +510,7 @@ module.exports = {
             "blendMode": "normal",
             "extensions": {
               "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
                 "collection": "DesinTokens",
                 "scopes": [
                   "ALL_SCOPES"
@@ -528,6 +540,7 @@ module.exports = {
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -544,6 +557,7 @@ module.exports = {
             "blendMode": "normal",
             "extensions": {
               "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
                 "collection": "DesinTokens",
                 "scopes": [
                   "ALL_SCOPES"
@@ -575,6 +589,7 @@ module.exports = {
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -591,6 +606,7 @@ module.exports = {
             "blendMode": "normal",
             "extensions": {
               "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
                 "collection": "DesinTokens",
                 "scopes": [
                   "ALL_SCOPES"
@@ -614,6 +630,141 @@ module.exports = {
             "white1000"
           ]
         }
+      },
+      "black": {
+        "type": "color",
+        "value": "#111010",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "DesinTokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:648:14",
+            "exportKey": "variables"
+          }
+        },
+        "filePath": "tokens/design-tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#111010ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:14",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "name": "DesintokensPrimitivecolorBlack",
+        "attributes": {
+          "category": "desintokens",
+          "type": "primitivecolor",
+          "item": "black"
+        },
+        "path": [
+          "desintokens",
+          "primitivecolor",
+          "black"
+        ]
+      },
+      "gray": {
+        "type": "color",
+        "value": "#808080",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "DesinTokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:648:15",
+            "exportKey": "variables"
+          }
+        },
+        "filePath": "tokens/design-tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#808080ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:15",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "name": "DesintokensPrimitivecolorGray",
+        "attributes": {
+          "category": "desintokens",
+          "type": "primitivecolor",
+          "item": "gray"
+        },
+        "path": [
+          "desintokens",
+          "primitivecolor",
+          "gray"
+        ]
+      },
+      "subgray": {
+        "type": "color",
+        "value": "#626264",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
+            "collection": "DesinTokens",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:648:30",
+            "exportKey": "variables"
+          }
+        },
+        "filePath": "tokens/design-tokens.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "#626264ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:30",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "name": "DesintokensPrimitivecolorSubgray",
+        "attributes": {
+          "category": "desintokens",
+          "type": "primitivecolor",
+          "item": "subgray"
+        },
+        "path": [
+          "desintokens",
+          "primitivecolor",
+          "subgray"
+        ]
       }
     },
     "sea800": {
@@ -622,6 +773,7 @@ module.exports = {
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
+          "mode": "Mode 1",
           "collection": "DesinTokens",
           "scopes": [
             "ALL_SCOPES"
@@ -638,6 +790,7 @@ module.exports = {
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -663,6 +816,7 @@ module.exports = {
         "value": "#000082",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "Mode 1",
             "collection": "DesinTokens",
             "scopes": [
               "ALL_SCOPES"
@@ -678,6 +832,7 @@ module.exports = {
           "value": "{desintokens.primitivecolor.sea.sea900}",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -705,6 +860,7 @@ module.exports = {
           "value": "#ffffff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -720,6 +876,7 @@ module.exports = {
             "value": "{desintokens.primitivecolor.white.white1000}",
             "extensions": {
               "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
                 "collection": "DesinTokens",
                 "scopes": [
                   "ALL_SCOPES"
@@ -748,6 +905,7 @@ module.exports = {
           "value": "#ffffff",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
               "collection": "DesinTokens",
               "scopes": [
                 "ALL_SCOPES"
@@ -763,6 +921,7 @@ module.exports = {
             "value": "{desintokens.primitivecolor.white.white1000}",
             "extensions": {
               "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
                 "collection": "DesinTokens",
                 "scopes": [
                   "ALL_SCOPES"
@@ -785,49 +944,237 @@ module.exports = {
             "text",
             "comment"
           ]
+        },
+        "placeholder": {
+          "type": "color",
+          "value": "#808080",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:16",
+              "exportKey": "variables"
+            }
+          },
+          "filePath": "tokens/design-tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{desintokens.primitivecolor.gray}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
+                "collection": "DesinTokens",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:648:16",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "name": "DesintokensSemanticcolorTextPlaceholder",
+          "attributes": {
+            "category": "desintokens",
+            "type": "semanticcolor",
+            "item": "text",
+            "subitem": "placeholder"
+          },
+          "path": [
+            "desintokens",
+            "semanticcolor",
+            "text",
+            "placeholder"
+          ]
+        },
+        "sub": {
+          "type": "color",
+          "value": "#626264",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:29",
+              "exportKey": "variables"
+            }
+          },
+          "filePath": "tokens/design-tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{desintokens.primitivecolor.subgray}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
+                "collection": "DesinTokens",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:648:29",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "name": "DesintokensSemanticcolorTextSub",
+          "attributes": {
+            "category": "desintokens",
+            "type": "semanticcolor",
+            "item": "text",
+            "subitem": "sub"
+          },
+          "path": [
+            "desintokens",
+            "semanticcolor",
+            "text",
+            "sub"
+          ]
+        }
+      },
+      "border": {
+        "dark": {
+          "type": "color",
+          "value": "#111010",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:13",
+              "exportKey": "variables"
+            }
+          },
+          "filePath": "tokens/design-tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{desintokens.primitivecolor.black}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
+                "collection": "DesinTokens",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:648:13",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "name": "DesintokensSemanticcolorBorderDark",
+          "attributes": {
+            "category": "desintokens",
+            "type": "semanticcolor",
+            "item": "border",
+            "subitem": "dark"
+          },
+          "path": [
+            "desintokens",
+            "semanticcolor",
+            "border",
+            "dark"
+          ]
+        },
+        "secondary": {
+          "type": "color",
+          "value": "#808080",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:18",
+              "exportKey": "variables"
+            }
+          },
+          "filePath": "tokens/design-tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{desintokens.primitivecolor.gray}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
+                "collection": "DesinTokens",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:648:18",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "name": "DesintokensSemanticcolorBorderSecondary",
+          "attributes": {
+            "category": "desintokens",
+            "type": "semanticcolor",
+            "item": "border",
+            "subitem": "secondary"
+          },
+          "path": [
+            "desintokens",
+            "semanticcolor",
+            "border",
+            "secondary"
+          ]
+        }
+      },
+      "background": {
+        "primary": {
+          "type": "color",
+          "value": "#ffffff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "Mode 1",
+              "collection": "DesinTokens",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:648:17",
+              "exportKey": "variables"
+            }
+          },
+          "filePath": "tokens/design-tokens.json",
+          "isSource": true,
+          "original": {
+            "type": "color",
+            "value": "{desintokens.primitivecolor.white.white1000}",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "mode": "Mode 1",
+                "collection": "DesinTokens",
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "variableId": "VariableID:648:17",
+                "exportKey": "variables"
+              }
+            }
+          },
+          "name": "DesintokensSemanticcolorBackgroundPrimary",
+          "attributes": {
+            "category": "desintokens",
+            "type": "semanticcolor",
+            "item": "background",
+            "subitem": "primary"
+          },
+          "path": [
+            "desintokens",
+            "semanticcolor",
+            "background",
+            "primary"
+          ]
         }
       }
-    },
-    "test": {
-      "type": "color",
-      "value": "#ffffff",
-      "blendMode": "normal",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "collection": "DesinTokens",
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "variableId": "VariableID:261:3",
-          "exportKey": "variables"
-        }
-      },
-      "filePath": "tokens/design-tokens.json",
-      "isSource": true,
-      "original": {
-        "type": "color",
-        "value": "#ffffffff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "collection": "DesinTokens",
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "variableId": "VariableID:261:3",
-            "exportKey": "variables"
-          }
-        }
-      },
-      "name": "DesintokensTest",
-      "attributes": {
-        "category": "desintokens",
-        "type": "test"
-      },
-      "path": [
-        "desintokens",
-        "test"
-      ]
     }
   },
   "typography": {
