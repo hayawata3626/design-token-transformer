@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.4.0...v1.5.0) (2023-12-04)
+
+
+### Features
+
+* design tokens updated ([#25](https://github.com/hayawata3626/design-token-transformer/issues/25)) ([c5520f2](https://github.com/hayawata3626/design-token-transformer/commit/c5520f2af6215ce113bda43bbf47f36615ef56ed))
+
 ## [1.4.0](https://github.com/hayawata3626/design-token-transformer/compare/v1.3.0...v1.4.0) (2023-12-02)
 
 
