@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 04 Dec 2023 09:41:57 GMT
+// Generated on Tue, 12 Dec 2023 07:58:59 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -22,21 +22,10 @@
   dispatch_once(&onceToken, ^{
     colorArray = @[
 #ffffffff,
-#ffffffff,
 #000082ff,
 #0017c1ff,
 #ffffffff,
-#111010ff,
-#808080ff,
-#626264ff,
-#0017c1ff,
 #000082ff,
-#ffffffff,
-#ffffffff,
-#808080ff,
-#626264ff,
-#111010ff,
-#808080ff,
 #ffffffff
     ];
   });
